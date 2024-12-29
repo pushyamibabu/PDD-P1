@@ -1,0 +1,99 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    
+}
+
+/* Header styles */
+header {
+    background-color: #2c3e50;
+    color: #e3dddd;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f6eded;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #220ad3;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url(https://as2.ftcdn.net/v2/jpg/07/82/66/51/1000_F_782665179_xITu2P2OnEQ45b3dbPy5qOMBv8pys0TS.jpg);
+    background-size: cover;
+    color: #eeeaea;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+/* Service section styles */
+.services {
+    padding: 50px 0;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.service {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.service:hover {
+    background-color: #e9e7e5;
+    color: #fff;
+}
+
+.service h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
